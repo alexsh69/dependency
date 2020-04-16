@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>poc.properties</groupId>
 	<artifactId>dependency</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>dependency</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -45,5 +45,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub alexsh69 Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/alexsh69/dependency</url>
+		</repository>
+	</distributionManagement>
 
 </project>
